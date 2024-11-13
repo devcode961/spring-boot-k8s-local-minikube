@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres:15-alpine
+    restart: always
+    environment:
+      POSTGRES_DB: my-demo-db
+      POSTGRES_USER: my-demo-user
+      POSTGRES_PASSWORD: my-demo-password
+    ports:
+      - "5432:5432"
