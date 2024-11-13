@@ -54,7 +54,7 @@ kubectl create secret generic db-secrets \
 Create a Kubernetes deployment using the following command:
 
 ```
-kubectl apply -f deployment.yaml
+kubectl apply -f k8s/deployment.yaml
 ```
 
 Use host.docker.internal to connect to a service running on the host machine from a container.
