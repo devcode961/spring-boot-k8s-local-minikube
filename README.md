@@ -69,6 +69,7 @@ you can use
 ```
 host.docker.internal as the host name in your connection string 
 ```
+Please use host.docker.internal for your local development environment only, not for production environment.
 
 to connect to a database running on the host machine from a container.
 
